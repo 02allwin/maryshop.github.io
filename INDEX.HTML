@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link icon=""
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARY Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">Mary shop</div>
+        <input type="text" placeholder="Search for products..." id="search-bar">
+        <button onclick="searchProduct()">🔍 Search</button>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Deals</a>
+            <a href="#">Orders</a>
+            <a href="#">Cart 🛒</a>
+        </nav>
+    </header>
+
+    <!-- PRODUCT SECTION -->
+    <section class="products">
+        <div class="product">
+            <img src="img/m1.PNG/" alt="Product">
+            <h3>saree</h3>
+            <p class="price">$159.99</p>
+            <button onclick="addToCart('Amazon Echo Dot')">Add to Cart</button>
+            <button onclick="buyNow('Amazon Echo Dot')">Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="img/m3.PNG/150" alt="Product">
+            <h3>Wireless Headphones</h3>
+            <p class="price">$29.99</p>
+            <button onclick="addToCart('Wireless Headphones')">Add to Cart</button>
+            <button onclick="buyNow('Wireless Headphones')">Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="img/m2.PNG/150" alt="Product">
+            <h3>Smartwatch</h3>
+            <p class="price">$99.99</p>
+            <button onclick="addToCart('Smartwatch')">Add to Cart</button>
+            <button onclick="buyNow('Smartwatch')">Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/150" alt="Product">
+            <h3>boots</h3>
+            <p class="price">$99.99</p>
+            <button onclick="addToCart('Smartwatch')">Add to Cart</button>
+            <button onclick="buyNow('Smartwatch')">Buy Now</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Amazon Clone. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
